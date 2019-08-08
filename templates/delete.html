@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block body %}
+<h2>{{ the_title }}</h2>
+<form method='POST' >
+<p>Do you really want to delete {{name}} hot dog?</p>
+<p><input value='Do it!' type='SUBMIT'></p>
+</form>
+{% endblock %}

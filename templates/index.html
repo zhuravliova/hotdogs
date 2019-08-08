@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block body %}
+    <h1>Welcome to hot dogs site!</h1>
+    <p>You can see the <a href="{{url_for('hotdogs')}}">list of hot dogs</a>
+        or <a href="{{url_for('create')}}">add a new one.</a></p>
+{% endblock %}
